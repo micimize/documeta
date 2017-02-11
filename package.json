@@ -1,0 +1,32 @@
+{
+  "name": "documeta",
+  "version": "0.1.0",
+  "description": "leverages object-metadata for documentation",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/babel -d dist/ src/",
+    "watch": "./node_modules/.bin/babel -d dist/ src/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micimize/documeta.git"
+  },
+  "author": "Michael Joseph Rosenthal <rosenthalm93@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micimize/documeta/issues"
+  },
+  "homepage": "https://github.com/micimize/documeta#readme",
+  "devDependencies": {
+    "object-metadata": "^1.0.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
