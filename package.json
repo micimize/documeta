@@ -1,6 +1,6 @@
 {
   "name": "documeta",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "leverages object-metadata for documentation",
   "main": "./dist/index.js",
   "scripts": {
